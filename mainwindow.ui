@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>540</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>540</width>
+    <height>360</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>540</width>
+    <height>360</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Belediye Sehir Tasimacilik Yonetimi</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>150</y>
+      <width>360</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ARAÇ / DURAK / HAT YÖNETİM SİSTEMİ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>240</y>
+      <width>360</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>YOLCU YÖNETİM SİSTEMİ</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>40</y>
+      <width>360</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Belediye Taşımacılığı Yönetimi Sistemi'ne Hoşgeldiniz!</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>80</y>
+      <width>360</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Lütfen işlem yapmak istediğiniz sistem aracını seçiniz.</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
